@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="470064b6-1f81-4195-bd98-d293b54f5f7c" name="Changes" comment="Adds blitting text and custom font">
-      <change afterPath="$PROJECT_DIR$/basic_pygame_tutorial/5_adding_sounds.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_pygame_tutorial/resources/images/coin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_pygame_tutorial/resources/sounds/music.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_pygame_tutorial/resources/sounds/sound_1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_pygame_tutorial/resources/sounds/sound_2.wav" afterDir="false" />
+    <list default="true" id="470064b6-1f81-4195-bd98-d293b54f5f7c" name="Changes" comment="Adds adding sounds, wav and png files to resources.">
+      <change afterPath="$PROJECT_DIR$/basic_pygame_tutorial/6_discrete_keyboard_movement.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +54,7 @@
     "Python.3_blittig_images.executor": "Run",
     "Python.4_blitting_text.executor": "Run",
     "Python.5_adding_sounds.executor": "Run",
+    "Python.6_discrete_keyboard_movement.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -127,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763748524673</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adds adding sounds, wav and png files to resources.">
+      <option name="closed" value="true" />
+      <created>1763756890644</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1763756890644</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -135,6 +140,7 @@
     <MESSAGE value="Adds drawing on display" />
     <MESSAGE value="Adds blitting images" />
     <MESSAGE value="Adds blitting text and custom font" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds blitting text and custom font" />
+    <MESSAGE value="Adds adding sounds, wav and png files to resources." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds adding sounds, wav and png files to resources." />
   </component>
 </project>
