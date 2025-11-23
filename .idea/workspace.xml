@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="470064b6-1f81-4195-bd98-d293b54f5f7c" name="Changes" comment="Adds continuous keyboard movement">
-      <change afterPath="$PROJECT_DIR$/basic_pygame_tutorial/9_movement_restrictions.py" afterDir="false" />
+    <list default="true" id="470064b6-1f81-4195-bd98-d293b54f5f7c" name="Changes" comment="Adds movement restrictions">
+      <change afterPath="$PROJECT_DIR$/basic_pygame_tutorial/10_collision_detection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.10_collision_detection.executor": "Run",
     "Python.1_display_surface.executor": "Run",
     "Python.2_drawing_on_display_surface.executor": "Run",
     "Python.3_blittig_images.executor": "Run",
@@ -160,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763847381089</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adds movement restrictions">
+      <option name="closed" value="true" />
+      <created>1763851778837</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1763851778837</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -172,6 +181,7 @@
     <MESSAGE value="Adds discrete movement." />
     <MESSAGE value="Adds mouse movement" />
     <MESSAGE value="Adds continuous keyboard movement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds continuous keyboard movement" />
+    <MESSAGE value="Adds movement restrictions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds movement restrictions" />
   </component>
 </project>
