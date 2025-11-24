@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="470064b6-1f81-4195-bd98-d293b54f5f7c" name="Changes" comment="Adds movement restrictions">
-      <change afterPath="$PROJECT_DIR$/basic_pygame_tutorial/10_collision_detection.py" afterDir="false" />
+    <list default="true" id="470064b6-1f81-4195-bd98-d293b54f5f7c" name="Changes" comment="Adds collision detection.">
+      <change afterPath="$PROJECT_DIR$/catch_the_clown/catch_the_clown.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catch_the_clown/resources/fonts/Franxurter.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catch_the_clown/resources/images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catch_the_clown/resources/images/clown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catch_the_clown/resources/sounds/click_sound.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catch_the_clown/resources/sounds/ctc_background_music.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catch_the_clown/resources/sounds/miss_sound.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +65,7 @@
     "Python.7_mouse_movement.executor": "Run",
     "Python.8_continuous_keyboard_movement.executor": "Run",
     "Python.9_movement_restrictions.executor": "Run",
+    "Python.catch_the_clown.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -66,16 +73,17 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/dsh/PycharmProjects/PygameCourse/basic_pygame_tutorial",
+    "last_opened_file_path": "/home/dsh/PycharmProjects/PygameCourse/catch_the_clown/resources/sounds",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/catch_the_clown/resources/sounds" />
+      <recent name="$PROJECT_DIR$/catch_the_clown/resources/images" />
+      <recent name="$PROJECT_DIR$/catch_the_clown/resources/fonts" />
       <recent name="$PROJECT_DIR$/basic_pygame_tutorial" />
       <recent name="$PROJECT_DIR$/basic_pygame_tutorial/resources/images" />
-      <recent name="$PROJECT_DIR$/basic_pygame_tutorial/resources/sounds" />
-      <recent name="$PROJECT_DIR$/basic_pygame_tutorial/resources/fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/basic_pygame_tutorial/resources/images" />
@@ -169,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763851778837</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Adds collision detection.">
+      <option name="closed" value="true" />
+      <created>1763914009828</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1763914009828</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -182,6 +198,7 @@
     <MESSAGE value="Adds mouse movement" />
     <MESSAGE value="Adds continuous keyboard movement" />
     <MESSAGE value="Adds movement restrictions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds movement restrictions" />
+    <MESSAGE value="Adds collision detection." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds collision detection." />
   </component>
 </project>
