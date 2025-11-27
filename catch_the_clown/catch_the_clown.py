@@ -46,13 +46,27 @@ lives_text = font.render("Lives: " + str(payer_lives), True, YELLOW)
 lives_rect = lives_text.get_rect()
 lives_rect.topright = (WINDOW_WIDTH - 50, 50)
 
+game_over_text = font.render("GAME OVER", True, BLUE, YELLOW)
+game_over_rect = game_over_text.get_rect()
+game_over_rect.center = (WINDOW_WIDTH // 2, WINDOW_HEIGHT // 2)
+
+continue_text = font.render("Continue", True, YELLOW, BLUE)
+continue_rect = continue_text.get_rect()
+continue_rect.center = (WINDOW_WIDTH // 2, WINDOW_HEIGHT // 2 + 64)
 
 #Set images
-clown = pygame.image.load("resources/images/clown.png")
-clown_rect = clown.get_rect()
+background_image = pygame.image.load("resources/images/background.png")
+background_rect = background_image.get_rect()
+background_rect.topleft = (0,0)
+
+clown_image = pygame.image.load("resources/images/clown.png")
+clown_rect = clown_image.get_rect()
 clown_rect.center = (WINDOW_WIDTH // 2, WINDOW_HEIGHT // 2)
 
 #Set sound and music
+hit_sound = pygame.mixer.Sound("resources/sounds/click_sound.wav")
+miss_sound = pygame.mixer.Sound("resources/sounds/miss_sound.wav")
+pygame.mixer.music.load("resources/sounds/ctc_background_music.wav")
 
 #The main game loop
 running = True
@@ -64,11 +78,20 @@ while running:
     #Fill the screen
     display_surface.fill((0,0,0))
 
-    #Blit
-    display_surface.blit(clown, clown_rect)
+    #Blit the background
+    display_surface.blit(background_image, background_rect)
+
+    #Blit HUD
+    display_surface.blit(title_text, text_rect)
+    display_surface.blit(score_text, score_rect)
+    display_surface.blit(lives_text, lives_rect)
+
+    #Blit assets
+    display_surface.blit(clown_image, clown_rect)
 
     #Update display
     pygame.display.update()
+    clock.tick(FPS)
 
 #End the game
 pygame.quit()

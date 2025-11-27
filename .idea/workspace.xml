@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="470064b6-1f81-4195-bd98-d293b54f5f7c" name="Changes" comment="Adds collision detection.">
-      <change afterPath="$PROJECT_DIR$/catch_the_clown/catch_the_clown.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catch_the_clown/resources/fonts/Franxurter.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catch_the_clown/resources/images/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catch_the_clown/resources/images/clown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catch_the_clown/resources/sounds/click_sound.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catch_the_clown/resources/sounds/ctc_background_music.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catch_the_clown/resources/sounds/miss_sound.wav" afterDir="false" />
+    <list default="true" id="470064b6-1f81-4195-bd98-d293b54f5f7c" name="Changes" comment="Adds Cath the clown - setup 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catch_the_clown/catch_the_clown.py" beforeDir="false" afterPath="$PROJECT_DIR$/catch_the_clown/catch_the_clown.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,31 +46,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.10_collision_detection.executor": "Run",
-    "Python.1_display_surface.executor": "Run",
-    "Python.2_drawing_on_display_surface.executor": "Run",
-    "Python.3_blittig_images.executor": "Run",
-    "Python.4_blitting_text.executor": "Run",
-    "Python.5_adding_sounds.executor": "Run",
-    "Python.6_discrete_keyboard_movement.executor": "Run",
-    "Python.7_mouse_movement.executor": "Run",
-    "Python.8_continuous_keyboard_movement.executor": "Run",
-    "Python.9_movement_restrictions.executor": "Run",
-    "Python.catch_the_clown.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/dsh/PycharmProjects/PygameCourse/catch_the_clown/resources/sounds",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.10_collision_detection.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1_display_surface.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2_drawing_on_display_surface.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3_blittig_images.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4_blitting_text.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5_adding_sounds.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6_discrete_keyboard_movement.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7_mouse_movement.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8_continuous_keyboard_movement.executor&quot;: &quot;Run&quot;,
+    &quot;Python.9_movement_restrictions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.catch_the_clown.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dsh/PycharmProjects/PygameCourse/catch_the_clown/resources/sounds&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/catch_the_clown/resources/sounds" />
@@ -185,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763914009828</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Adds Cath the clown - setup 1">
+      <option name="closed" value="true" />
+      <created>1764016136266</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1764016136266</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -199,6 +201,7 @@
     <MESSAGE value="Adds continuous keyboard movement" />
     <MESSAGE value="Adds movement restrictions" />
     <MESSAGE value="Adds collision detection." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds collision detection." />
+    <MESSAGE value="Adds Cath the clown - setup 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds Cath the clown - setup 1" />
   </component>
 </project>
