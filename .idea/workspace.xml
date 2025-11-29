@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="470064b6-1f81-4195-bd98-d293b54f5f7c" name="Changes" comment="Adds Cath the clown - setup 1">
+    <list default="true" id="470064b6-1f81-4195-bd98-d293b54f5f7c" name="Changes" comment="Adds Cath the clown - setup 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catch_the_clown/catch_the_clown.py" beforeDir="false" afterPath="$PROJECT_DIR$/catch_the_clown/catch_the_clown.py" afterDir="false" />
     </list>
@@ -187,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764016136266</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Adds Cath the clown - setup 2">
+      <option name="closed" value="true" />
+      <created>1764278212656</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1764278212656</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -202,6 +210,7 @@
     <MESSAGE value="Adds movement restrictions" />
     <MESSAGE value="Adds collision detection." />
     <MESSAGE value="Adds Cath the clown - setup 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds Cath the clown - setup 1" />
+    <MESSAGE value="Adds Cath the clown - setup 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds Cath the clown - setup 2" />
   </component>
 </project>

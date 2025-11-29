@@ -67,13 +67,52 @@ clown_rect.center = (WINDOW_WIDTH // 2, WINDOW_HEIGHT // 2)
 hit_sound = pygame.mixer.Sound("resources/sounds/click_sound.wav")
 miss_sound = pygame.mixer.Sound("resources/sounds/miss_sound.wav")
 pygame.mixer.music.load("resources/sounds/ctc_background_music.wav")
+pygame.mixer.music.set_volume(0.1)
 
 #The main game loop
+pygame.mixer.music.play(-1, 0.0)
 running = True
 while running:
+    #Check to see if the user wants to quit
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
+        #A click is made
+        if event.type == pygame.MOUSEBUTTONDOWN:
+            mouse_x = event.pos[0]
+            mouse_y = event.pos[1]
+
+            #The clown was clicked
+            if clown_rect.collidepoint(mouse_x, mouse_y):
+                # hit_sound.play()
+                score += 1
+                clown_velocity += CLOWN_ACCELERATION
+
+                #Move the clown in a new direction
+                previous_dx = clown_dx
+                previous_dy = clown_dy
+                while clown_dx == previous_dx and clown_dy == previous_dy:
+                    clown_dx = random.choice([-1, 1])
+                    clown_dy = random.choice([-1, 1])
+            #We missed the clown
+
+    #Move the clown
+    clown_rect.x += clown_dx*clown_velocity
+    clown_rect.y += clown_dy*clown_velocity
+
+    #Bounce the clown off the edges of the display
+    if clown_rect.left < 0:
+        clown_rect.left = 0
+        clown_dx = -clown_dx
+    if clown_rect.right > WINDOW_WIDTH:
+        clown_rect.right = WINDOW_WIDTH
+        clown_dx = -clown_dx
+    if clown_rect.top < 0:
+        clown_rect.top = 0
+        clown_dy = -clown_dy
+    if clown_rect.bottom > WINDOW_HEIGHT:
+        clown_rect.bottom = WINDOW_HEIGHT
+        clown_dy = -clown_dy
 
     #Fill the screen
     display_surface.fill((0,0,0))
