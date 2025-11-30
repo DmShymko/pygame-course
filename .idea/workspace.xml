@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="470064b6-1f81-4195-bd98-d293b54f5f7c" name="Changes" comment="Adds Cath the clown - setup 2">
+    <list default="true" id="470064b6-1f81-4195-bd98-d293b54f5f7c" name="Changes" comment="Adds Cath the clown - setup 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catch_the_clown/catch_the_clown.py" beforeDir="false" afterPath="$PROJECT_DIR$/catch_the_clown/catch_the_clown.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +67,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/dsh/PycharmProjects/PygameCourse/catch_the_clown/resources/sounds&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
 }</component>
@@ -195,7 +195,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764278212656</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Adds Cath the clown - setup 3">
+      <option name="closed" value="true" />
+      <created>1764446337943</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1764446337943</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Adds Cath the clown - setup 4">
+      <option name="closed" value="true" />
+      <created>1764453043957</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1764453043957</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -211,6 +227,8 @@
     <MESSAGE value="Adds collision detection." />
     <MESSAGE value="Adds Cath the clown - setup 1" />
     <MESSAGE value="Adds Cath the clown - setup 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds Cath the clown - setup 2" />
+    <MESSAGE value="Adds Cath the clown - setup 3" />
+    <MESSAGE value="Adds Cath the clown - setup 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds Cath the clown - setup 4" />
   </component>
 </project>

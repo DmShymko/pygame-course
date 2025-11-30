@@ -1,5 +1,4 @@
 import pygame, random
-from pygame import surface
 
 #Initialize pygame
 pygame.init()
@@ -150,7 +149,6 @@ while running:
                 if event.type == pygame.QUIT:
                     is_paused = False
                     running = False
-
 
     #Blit the background
     display_surface.blit(background_image, background_rect)
