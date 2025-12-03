@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="470064b6-1f81-4195-bd98-d293b54f5f7c" name="Changes" comment="Adds Cath the clown - setup 4">
+    <list default="true" id="470064b6-1f81-4195-bd98-d293b54f5f7c" name="Changes" comment="Adds snake game - setup 1">
+      <change afterPath="$PROJECT_DIR$/snake/resources2/snake.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snake/resources/snake.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snake/resources/sounds/pick_up_sound.wav" beforeDir="false" afterPath="$PROJECT_DIR$/snake/resources2/sounds/pick_up_sound.wav" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +62,7 @@
     &quot;Python.8_continuous_keyboard_movement.executor&quot;: &quot;Run&quot;,
     &quot;Python.9_movement_restrictions.executor&quot;: &quot;Run&quot;,
     &quot;Python.catch_the_clown.executor&quot;: &quot;Run&quot;,
+    &quot;Python.snake.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -66,18 +70,18 @@
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/dsh/PycharmProjects/PygameCourse/catch_the_clown/resources/sounds&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dsh/PycharmProjects/PygameCourse/snake/resources/sounds&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/snake/resources/sounds" />
       <recent name="$PROJECT_DIR$/catch_the_clown/resources/sounds" />
       <recent name="$PROJECT_DIR$/catch_the_clown/resources/images" />
       <recent name="$PROJECT_DIR$/catch_the_clown/resources/fonts" />
       <recent name="$PROJECT_DIR$/basic_pygame_tutorial" />
-      <recent name="$PROJECT_DIR$/basic_pygame_tutorial/resources/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/basic_pygame_tutorial/resources/images" />
@@ -211,7 +215,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764453043957</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Adds Cath the clown - setup 4">
+      <option name="closed" value="true" />
+      <created>1764536131507</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1764536131507</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Adds snake game - setup 1">
+      <option name="closed" value="true" />
+      <created>1764713032038</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1764713032038</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -229,6 +249,7 @@
     <MESSAGE value="Adds Cath the clown - setup 2" />
     <MESSAGE value="Adds Cath the clown - setup 3" />
     <MESSAGE value="Adds Cath the clown - setup 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds Cath the clown - setup 4" />
+    <MESSAGE value="Adds snake game - setup 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds snake game - setup 1" />
   </component>
 </project>
