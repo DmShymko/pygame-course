@@ -1,0 +1,126 @@
+Materiały do tworzenia gier w Pygame 🎮
+Ten materiał jest przeznaczony dla dziecka (lub początkującego), które uczy się programować gry przy użyciu Python i Pygame. Materiał podawany jest krok po kroku: od podstaw aż do stworzenia własnej gry.
+
+1. Czym jest Pygame?
+Pygame to biblioteka Pythona do tworzenia gier 2D.
+Dzięki niej można:
+    • rysować obrazki i figury
+    • odtwarzać dźwięki i muzykę
+    • obsługiwać naciśnięcia klawiszy
+    • tworzyć postacie i przeciwników
+📌 Pygame nadaje się do nauki, ponieważ od razu widać wynik na ekranie.
+
+2. Przygotowanie do pracy
+Co trzeba zainstalować
+    1. Python (wersja 3.8+)
+    2. Pygame
+Instalacja Pygame w terminalu:
+pip install pygame
+
+3. Struktura każdej gry w Pygame
+Prawie każda gra składa się z 5 ważnych części:
+    1. Import bibliotek
+    2. Inicjalizacja Pygame
+    3. Tworzenie okna
+    4. Główna pętla gry
+    5. Zakończenie gry
+
+Najprostszy szablon gry:
+import pygame
+
+pygame.init()
+
+screen = pygame.display.set_mode((800, 600))
+pygame.display.set_caption("Moja pierwsza gra")
+
+running = True
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+    screen.fill((0, 0, 0))
+    pygame.display.update()
+
+pygame.quit()
+
+4. Współrzędne i ekran
+Ekran to siatka współrzędnych:
+    • (0, 0) — lewy górny róg
+    • X rośnie w prawo
+    • Y rośnie w dół
+📍 Przykład punktu (100, 50):
+    • 100 pikseli w prawo
+    • 50 pikseli w dół
+
+5. Rysowanie obiektów
+Rysowanie prostokąta
+pygame.draw.rect(screen, (255, 0, 0), (100, 100, 50, 50))
+Rysowanie koła
+pygame.draw.circle(screen, (0, 255, 0), (200, 200), 30)
+🎨 Kolor podaje się jako (R, G, B)
+
+
+6. Obrazki (sprite'y)
+Ładowanie obrazka:
+player_img = pygame.image.load("player.png")
+Rysowanie na ekranie:
+screen.blit(player_img, (x, y))
+📁 Obrazki najlepiej przechowywać w folderze images/
+
+7. Ruch postaci
+Przykład ruchu przy użyciu klawiszy:
+keys = pygame.key.get_pressed()
+
+if keys[pygame.K_LEFT]:
+    x -= 5
+if keys[pygame.K_RIGHT]:
+    x += 5
+if keys[pygame.K_UP]:
+    y -= 5
+if keys[pygame.K_DOWN]:
+    y += 5
+
+8. Pętla gry (serce gry ❤️)
+Pętla gry odpowiada za:
+    • obsługę zdarzeń
+    • ruch obiektów
+    • rysowanie ekranu
+Ważne, aby pętla działała w stałej prędkości:
+clock = pygame.time.Clock()
+
+while running:
+    clock.tick(60)  # 60 klatek na sekundę
+
+
+9. Kolizje
+Używamy prostokątów:
+player_rect = pygame.Rect(x, y, 50, 50)
+enemy_rect = pygame.Rect(ex, ey, 50, 50)
+
+if player_rect.colliderect(enemy_rect):
+    print("Kolizja!")
+
+10. Dźwięk i muzyka 🔊
+Ładowanie dźwięku:
+sound = pygame.mixer.Sound("hit.wav")
+sound.play()
+Muzyka w tle:
+pygame.mixer.music.load("music.mp3")
+pygame.mixer.music.play(-1)
+
+11. Wynik i tekst
+Wyświetlanie tekstu:
+font = pygame.font.SysFont(None, 36)
+text = font.render("Score: 10", True, (255, 255, 255))
+screen.blit(text, (10, 10))
+
+12. Przykład prostej gry (pomysł)
+🎯 Złap kwadrat
+    • Gracz steruje kwadratem
+    • Na ekranie pojawia się cel
+    • Za dotknięcie przyznawane są punkty
+Można dodać:
+    • timer
+    • poziomy
+    • przyspieszenie
